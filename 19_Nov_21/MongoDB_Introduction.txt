@@ -1,0 +1,21 @@
+***MongoDB Introduction***
+
+1. use assignment
+
+2. db.users.insert({first_name:"Shivam", last_name:"Sharma",email:"shivam123@gmail.com",gender:"Male",ip_address:"1.1.1.1",age:24})
+
+3.  db.users.insertMany([{"first_name":"Perren","last_name":"Longley","email":"plongley0@seattletimes.com","gender":"Genderfluid","ip_address":"166.106.195.207","age":74},{"first_name":"Stillman","last_name":"Beels","email":"sbeels1@cyberchimps.com","gender":"Female","ip_address":"87.89.193.104","age":81},{"first_name":"Anabella","last_name":"Leare","email":"aleare2@sogou.com","gender":"Genderfluid","ip_address":"195.19.162.186","age":35},{"first_name":"Humfrid","last_name":"Kupis","email":"hkupis3@amazonaws.com","gender":"Genderfluid","ip_address":"135.80.73.83","age":57},{"first_name":"Mallissa","last_name":"Meeson","email":"mmeeson4@google.ru","gender":"Bigender","ip_address":"235.240.238.51","age":14},{"first_name":"Audrie","last_name":"Van Halle","email":"avanhalle5@mediafire.com","gender":"Non-binary","ip_address":"23.247.33.229","age":75},{"first_name":"Nevil","last_name":"Laughrey","email":"nlaughrey6@ask.com","gender":"Genderfluid","ip_address":"37.65.63.138","age":22},{"first_name":"Noe","last_name":"Capewell","email":"ncapewell7@sitemeter.com","gender":"Polygender","ip_address":"90.54.140.121","age":48},{"first_name":"Maggi","last_name":"Stidston","email":"mstidston8@marketwatch.com","gender":"Bigender","ip_address":"59.186.193.243","age":80},{"first_name":"Cammy","last_name":"Mithan","email":"cmithan9@goodreads.com","gender":"Non-binary","ip_address":"38.24.214.84","age":22}])
+
+4. db.users.find().pretty()
+
+5. db.users.findOne({gender:"Male"})
+
+6. db.users.updateMany({gender:"Genderfluid"}, {$set: {gender:"Female"}}) 
+
+7. db.users.remove({"_id" : ObjectId("619d49a2f33e9ddefb8a78ec")})
+
+8. db.users.deleteOne({"_id" : ObjectId("619d49a2f33e9ddefb8a78e5")})
+
+9. db.users.deleteMany({gender:"Female"})
+
+10. db.dropDatabase() 
