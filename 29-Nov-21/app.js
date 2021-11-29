@@ -165,11 +165,34 @@ app.get("/jobs1", async (req, res) => {
     } 
 }); 
 
+// work from home
+
+app.get("/jobs/wfh/:work_from_home", async (req, res) => {
+    try {
+        const jobs = await Job.find({work_from_home:req.params.work_from_home}).lean().exec();
+
+        return res.send(jobs);
+    }catch (e) {
+        return res.status(500).json({message: e.message, status: "Failed"});
+    } 
+}); 
+
+// get job with notice period 
+
+app.get("/jobs/notice/:notice_period", async (req, res) => {
+    try {
+        const jobs = await Job.find({notice_period: req.params.notice_period}).lean().exec();
+
+        return res.status(200).send(jobs);
+    }catch (e) {
+        return res.status(500).json({message: e.message, status: "Failed"});
+    } 
+}); 
 
 
 // get by city 
 
-app.get("/jobs/:city", async (req, res) => {
+app.get("/jobs/city/:city", async (req, res) => {
     try {
         const jobs = await Job.find({city:req.params.city}).lean().exec();
 
@@ -180,19 +203,6 @@ app.get("/jobs/:city", async (req, res) => {
 }); 
 
 
-
-
-// get job with notice period 2
-
-app.get("/jobsN", async (req, res) => {
-    try {
-        const jobs = await Job.find({"notice_period":"2" }).lean().exec();
-
-        return res.status(200).send(jobs);
-    }catch (e) {
-        return res.status(500).json({message: e.message, status: "Failed"});
-    } 
-}); 
 
 // Update
 
