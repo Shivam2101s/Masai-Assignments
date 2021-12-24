@@ -1,0 +1,13 @@
+.container{
+    width: 30%;
+    margin:20px auto; 
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+li {
+    padding-left:20px;
+}
+.circle{
+    list-style-type: circle;
+}
