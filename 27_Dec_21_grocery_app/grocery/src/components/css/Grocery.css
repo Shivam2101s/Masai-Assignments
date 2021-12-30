@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grocery {
+  padding: 10px;
+  min-height: 600px;
+  background-image: url("https://www.pngall.com/wp-content/uploads/4/Grocery-PNG-Image.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.grocery h3 {
+  margin-top: 40px;
+  color: rgb(235, 100, 47);
+  font-size: 50px;
+}
+#listDiv {
+  width: 70%;
+  height: 350px;
+  margin: 30px auto;
+  border: 1px solid rgb(235, 100, 47);
+  box-shadow: 4px 4px 4px rgb(235, 100, 47);
+  padding: 10px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(235, 100, 47);
+  border-radius: 25px;
+}
+#noteDiv li {
+  font-size: 18px;
+  font-family: cursive;
+}
