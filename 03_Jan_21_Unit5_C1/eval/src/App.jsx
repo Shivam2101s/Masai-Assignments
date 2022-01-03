@@ -4,7 +4,7 @@ import {Input, Div,Div1} from './components/styled_components'
 
 function App() {
 
-  const [recipe,setRecipe] = useState([]);
+  
   const [form , setForm] = useState({     
     title:"",
     ingredients:"",
@@ -12,7 +12,7 @@ function App() {
     image:"",
     instructions:"",
 });
-
+const [recipe,setRecipe] = useState([]);
 
  useEffect(() => {
     getRecipe();
@@ -51,7 +51,7 @@ function App() {
     },
   }).then(()=>{
      getRecipe()
-      setForm("");
+     
   })
 };
 
@@ -78,7 +78,7 @@ const detail=(id) => {
     <Input name="time"  onChange={handleChange} placeholder="Time to cook" required/> 
     <Input name="image" type="file"  onChange={handleChange} placeholder="Image" />
     <Input name="instructions"  onChange={handleChange} placeholder="Instructions" required/>
-    <Input id="submit"  onChange={handleChange} type="submit" value="Submit" required/>
+    <Input id="submit" type="submit" value="Submit" required/>
     </form>
     </Div>
 

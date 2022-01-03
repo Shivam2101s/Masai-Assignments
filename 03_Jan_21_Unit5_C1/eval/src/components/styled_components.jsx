@@ -30,6 +30,7 @@ export const Div = styled.div`
  & > h2:hover{
    transform: scale(1.07);
    color: #269b28;
+   
  }
 
 `;
@@ -47,7 +48,10 @@ export const Div1 = styled.div`
    margin-left:10px;
  }
  &> li:hover {
-   color: #2beb2b;
+   color: white;
+   padding:5px;
+   background-color: #ffa600;
+   border-radius: 5px;
  }
 
 `;
