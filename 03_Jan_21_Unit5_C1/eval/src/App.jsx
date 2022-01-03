@@ -1,12 +1,16 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
-import {Input, Div} from './components/styled_components'
+import {Input, Div,Div1} from './components/styled_components'
 
 function App() {
 
   const [title,setTitle] = useState("");
   const [ingredient,setIngredient] = useState("")
   const [recipe, setRecipe] = useState([]);
+
+ useEffect(() => {
+    getRecipe();
+  }, []);
 
   const getRecipe = () => {
     fetch(`http://localhost:3002/recipe`,{
@@ -17,7 +21,6 @@ function App() {
         setRecipe(res);
       });
   };
-
   
   const addRecipe = (e) => {
   const payload = {
@@ -36,7 +39,6 @@ function App() {
   })
 };
 
-console.log(recipe);
   return (
    
     <div className="App">
@@ -57,12 +59,12 @@ console.log(recipe);
     <Input id="submit" type="submit" value="Submit" onSubmit={addRecipe} required/>
     </Div>
 
-   <Div>
+   <Div1 id="collection">
 <h2>Recipes</h2>
 {recipe.map((e) => (
-        <div>{e.title}</div>
+        <li>{e.title}</li>
       ))}
-   </Div>
+   </Div1>
       </div>
    
    <div id="recipe">

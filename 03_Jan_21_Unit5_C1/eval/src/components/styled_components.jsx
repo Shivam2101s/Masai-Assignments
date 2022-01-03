@@ -34,19 +34,20 @@ export const Div = styled.div`
 
 `;
 
-export const Button = styled.button`
-width:30%;
-background-color: #60c520;
-padding: 5px 7px;
-color: white;
-border-radius: 15px;
-font-size:16px;
-border: none;
-margin:10px;
+export const Div1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 30%;
+  border: 5px solid #CAC1B9;
+  border-radius: 10px;
+  overflow-y: scroll;  
+ & > li {
+   color: #ffae17;
+   margin-left:10px;
+ }
+ &> li:hover {
+   color: #2beb2b;
+ }
 
-&:hover{
-    transform: scale(1.05);
-    box-shadow: 3px 3px 3px #60c520 ;
-    border-bottom: 1px solid white;
-}
 `;

@@ -50,6 +50,7 @@ h1{
 }
 .container{
   width: 80%;
+  height:320px;
   margin: 20px auto;
   display: flex;
   flex-direction: row;
@@ -77,5 +78,13 @@ margin:10px;
 }
 h2 { 
   color:#125C13;
+  width: 100%;
   font-size: 30px;
+  background-color: #D7D3D8;
+  z-index: 10;
+  position: sticky;
+}
+h2:hover{
+  transform: scale(1.07);
+  color: #269b28;
 }
