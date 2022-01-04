@@ -85,6 +85,5 @@ h2 {
   position: sticky;
 }
 h2:hover{
-  transform: scale(1.07);
   color: #269b28;
 }

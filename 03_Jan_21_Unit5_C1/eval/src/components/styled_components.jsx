@@ -11,8 +11,6 @@ border-radius: 3px;
 
 `;
 
-
-
 export const Div = styled.div`
   display: flex;
   flex-direction: column;
@@ -21,18 +19,6 @@ export const Div = styled.div`
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  
- & > h2 {
-     color:#125C13;
-     font-size: 30px;
-     
- }
- & > h2:hover{
-   transform: scale(1.07);
-   color: #269b28;
-   
- }
-
 `;
 
 export const Div1 = styled.div`

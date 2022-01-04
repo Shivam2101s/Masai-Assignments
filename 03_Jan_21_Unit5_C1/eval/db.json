@@ -1,7 +1,7 @@
 {
   "recipe": [
     {
-      
+      "id": 1,
       "title": "Chocolate Gateau",
       "strDrinkAlternate": null,
       "Category": "Dessert",
@@ -10,7 +10,7 @@
       "image": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg"
     },
     {
-      
+      "id": 2,
       "title": "Chicken Enchilada Casserole",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -19,7 +19,7 @@
       "image": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg"
     },
     {
-     
+      "id": 3,
       "title": "Cream Cheese Tart",
       "strDrinkAlternate": null,
       "Category": "Starter",
@@ -28,7 +28,7 @@
       "image": "https://www.themealdb.com/images/media/meals/wurrux1468416624.jpg"
     },
     {
-      
+      "id": 4,
       "title": "Christmas Pudding Flapjack",
       "strDrinkAlternate": null,
       "Category": "Dessert",
@@ -37,7 +37,7 @@
       "image": "https://www.themealdb.com/images/media/meals/vvusxs1483907034.jpg"
     },
     {
-      
+      "id": 5,
       "title": "Chicken Handi",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -46,7 +46,7 @@
       "image": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg"
     },
     {
-  
+      "id": 6,
       "title": "Chicken Alfredo Primavera",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -55,7 +55,7 @@
       "image": "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg"
     },
     {
-     
+      "id": 7,
       "title": "Chicken Fajita Mac and Cheese",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -64,7 +64,7 @@
       "image": "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg"
     },
     {
-      
+      "id": 8,
       "title": "Cajun spiced fish tacos",
       "strDrinkAlternate": null,
       "Category": "Seafood",
@@ -73,7 +73,7 @@
       "image": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
     },
     {
-     
+      "id": 9,
       "title": "Crock Pot Chicken Baked Tacos",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -82,7 +82,7 @@
       "image": "https://www.themealdb.com/images/media/meals/ypxvwv1505333929.jpg"
     },
     {
-      
+      "id": 10,
       "title": "Chicken Karaage",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -91,7 +91,7 @@
       "image": "https://www.themealdb.com/images/media/meals/tyywsw1505930373.jpg"
     },
     {
-      
+      "id": 11,
       "title": "Coq au vin",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -100,7 +100,7 @@
       "image": "https://www.themealdb.com/images/media/meals/qstyvs1505931190.jpg"
     },
     {
-     
+      "id": 12,
       "title": "Chilli prawn linguine",
       "strDrinkAlternate": null,
       "Category": "Pasta",
@@ -109,7 +109,7 @@
       "image": "https://www.themealdb.com/images/media/meals/usywpp1511189717.jpg"
     },
     {
-     
+      "id": 13,
       "title": "Clam chowder",
       "strDrinkAlternate": null,
       "Category": "Starter",
@@ -118,7 +118,7 @@
       "image": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg"
     },
     {
-      
+      "id": 14,
       "title": "Creamy Tomato Soup",
       "strDrinkAlternate": null,
       "Category": "Starter",
@@ -127,7 +127,7 @@
       "image": "https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg"
     },
     {
-      
+      "id": 15,
       "title": "Chicken & mushroom Hotpot",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -136,7 +136,7 @@
       "image": "https://www.themealdb.com/images/media/meals/uuuspp1511297945.jpg"
     },
     {
-     
+      "id": 16,
       "title": "Chicken Couscous",
       "strDrinkAlternate": null,
       "Category": "Chicken",
@@ -145,7 +145,7 @@
       "image": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg"
     },
     {
-     
+      "id": 17,
       "title": "Chocolate Avocado Mousse",
       "strDrinkAlternate": null,
       "Category": "Dessert",
@@ -154,12 +154,29 @@
       "image": "https://www.themealdb.com/images/media/meals/uttuxy1511382180.jpg"
     },
     {
+      "id": 18,
       "title": "Choc Chip Pecan Pie",
       "strDrinkAlternate": null,
       "Category": "Dessert",
       "Area": "American",
       "instructions": "First, make the pastry. Tip the ingredients into a food processor with 1 /4 tsp salt. Blend until the mixture resembles breadcrumbs. Drizzle 2-3 tsp cold water into the funnel while the blade is running – the mixture should start to clump together. Tip onto a work surface and bring together, kneading briefly into a ball. Pat into a disc, wrap in cling film, and chill for at least 20 mins. Heat oven to 200C/180C fan/gas 6.\r\n\r\nRemove the pastry from the fridge and leave at room temperature for 5 mins to soften. Flour the work surface, then unwrap the pastry and roll to a circle the thickness of a £1 coin. Use the pastry to line a deep, 23cm round fluted tin – mine was about 3cm deep. Press the pastry into the corners and up the sides, making sure there are no gaps. Leave 1cm pastry overhanging (save some of the pastry scraps for later). Line with baking parchment (scrunch it up first to make it more pliable) and fill with baking beans. Blind-bake for 15-20 mins until the sides are set, then remove the parchment and beans and return to the oven for 5 mins until golden brown. Trim the pastry so it’s flush with the top of the tin – a small serrated knife is best for this. If there are any cracks, patch them up with the pastry scraps.\r\n\r\nMeanwhile, weigh the butter, syrup and sugars into a pan, and add 1 /4 tsp salt. Heat until the butter has melted and the sugar dissolved, stirring until smooth. Remove from the heat and cool for 10 mins. Reduce oven to 160C/140C fan/gas 3.\r\n\r\nBeat the eggs in a bowl. Add the syrup mixture, vanilla and pecans, and mix until well combined. Pour half the mixture into the tart case, scatter over half the chocolate chips, then cover with the remaining filling and chocolate chips. Bake on the middle shelf for 50-55 mins until set. Remove from the oven and leave to cool, then chill for at least 2 hrs before serving.",
       "image": "https://www.themealdb.com/images/media/meals/rqvwxt1511384809.jpg"
+    },
+    {
+      "title": "Dal makhni",
+      "time": "1 hour",
+      "ingredients": "dal , onion, tomato,chilly",
+      "image": "dal.jpg",
+      "instructions": "cook carefully",
+      "id": 19
+    },
+    {
+      "title": "Rice",
+      "ingredients": "Rice,salt",
+      "time": "30 min",
+      "image": "C:\\fakepath\\mobileOS.jpg",
+      "instructions": "cook carefully",
+      "id": 20
     }
   ]
 }
