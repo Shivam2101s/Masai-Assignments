@@ -1,0 +1,29 @@
+#navbar {
+    width: 100%;
+    height: 60px;
+   background-color: #2FDD92;
+   border-bottom: 10px solid #188657;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 5%;
+    gap: 20%;
+}
+#navbar img {
+    height: 90%;
+}
+.link {
+border: 3px solid #ff8c52;
+color: white;
+text-decoration: none;
+font-size: 18px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight:700;
+padding:5px; 
+border-radius: 4px;
+}
+.link:hover {
+    transform: scale(1.1);
+    
+} 

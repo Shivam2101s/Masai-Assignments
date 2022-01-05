@@ -1,0 +1,122 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+#home h1 {
+  margin-top: 3%;
+  font-size:50px;
+  color: #ff8c52;
+  font-family:cursive;
+  font-weight:900;
+  text-shadow: 5px 5px 5px  #4af7ac;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(5,18%);
+  justify-content: space-between;
+  gap: 2%;
+  padding:1%;
+margin-top:30px;
+margin-bottom:  100px;
+}
+.productDiv{
+height: 300px;
+background-color: rgb(255, 209, 130);
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items:center;
+}
+.productDiv:hover {
+  box-shadow: 4px 4px 4px rgb(252, 126, 8);
+}
+.productDiv img{
+  width: 70%;
+  height: 70%;
+}
+.productLink{
+  text-decoration: none;
+}
+.productTitle {
+font-size:16px;
+font-weight:bold;
+color: black;
+text-align: left;
+}
+.productPrice {
+  font-size:13px;
+  color: black;
+}
+.product-details {
+  margin: 20px auto;
+  width: 90%;
+}
+.product-details h1 {
+  color: rgb(19, 83, 19);
+}
+.detail{
+  width: 70%;
+  border: 4px solid rgb(255, 245, 245);
+  margin:50px 15%;
+  display: flex;
+ float: left;
+}
+.productImg{
+  background-color:white;
+  padding: 10px;
+  width: 40%;
+  height:400px;
+}
+.description {
+  background-color:rgb(255, 245, 245);
+  border-left: 4px solid rgb(255, 198, 164);
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding:30px ;
+  gap: 20px;
+}

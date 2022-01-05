@@ -51,10 +51,13 @@ function App() {
     });
   };
 
-  const detail = (id) => {
-    fetch(`http://localhost:3002/recipe/${id}`)
-      .then((d) => d.json())
-      .then((res) => {});
+  const detail = (e) => {
+    console.log(e.id)
+    // fetch(`http://localhost:3002/recipe/${id}`,{
+    //   method: "GET",
+    // })
+    //   .then((d) => d.json())
+    //   .then((res) => {console.log(res)});
   };
 
   return (
