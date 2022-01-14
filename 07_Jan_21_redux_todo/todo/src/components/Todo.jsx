@@ -52,8 +52,8 @@ export const Todo = () => {
       .then((d) => d.json())
       .then(res => {
         dispatch(editTodo(res));
-        alert("Task updated successfully");
-        getTodos();
+             getTodos();
+             alert("Task updated successfully");
       })
       .catch((err) => {
         console.log(err);
@@ -64,8 +64,8 @@ export const Todo = () => {
     fetch(`http://localhost:3002/todos/${id}`, {
       method: "Delete",
     })
-        alert("Task deleted successfully !!")
         getTodos();
+        alert("Task deleted successfully !!")
      };
 
   const getTodos = () => {
