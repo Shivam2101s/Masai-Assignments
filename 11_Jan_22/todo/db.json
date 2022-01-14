@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "status": true,
+      "title": "Breakfast",
+      "description": "juice only",
+      "id": 1
+    },
+    {
+      "status": false,
+      "title": "DSA Contest",
+      "description": "at 10:45 AM",
+      "id": 2
+    },
+    {
+      "status": false,
+      "title": "Skillathon",
+      "description": "At 1:00 PM",
+      "id": 3
+    },
+    {
+      "status": false,
+      "title": "Codding Class",
+      "description": "At 3:00 PM",
+      "id": 4
+    },
+    {
+      "status": true,
+      "title": "Do assignments",
+      "description": "All assignments completed",
+      "id": 5
+    }
+  ]
+}
