@@ -64,8 +64,9 @@ export const Todo = () => {
     fetch(`http://localhost:3002/todos/${id}`, {
       method: "Delete",
     })
+       alert("Task deleted successfully !!")
         getTodos();
-        alert("Task deleted successfully !!")
+       
      };
 
   const getTodos = () => {

@@ -1,19 +1,19 @@
 {
   "todos": [
     {
-      "status": false,
+      "status": true,
       "title": "Learn React",
       "id": 1
     },
     {
       "status": false,
-      "title": "Have Lunch",
+      "title": "Read novel",
       "id": 3
     },
     {
-      "status": false,
-      "title": "Read novel",
-      "id": 4
+      "status": true,
+      "title": "Interview Prep",
+      "id": 5
     }
   ]
 }
