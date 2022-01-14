@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "status": false,
+      "title": "Learn React",
+      "id": 1
+    },
+    {
+      "status": false,
+      "title": "Have Lunch",
+      "id": 3
+    },
+    {
+      "status": false,
+      "title": "Meeting at 6 pm",
+      "id": 5
+    }
+  ]
+}
