@@ -1,4 +1,13 @@
 {
-    "jobs":[]
-
+  "jobs": [
+    {
+      "title": "developer",
+      "company": "masai",
+      "salary": "500000",
+      "description": "3+yrs exp",
+      "location": "Pune",
+      "type": "WFH",
+      "id": 1
+    }
+  ]
 }
