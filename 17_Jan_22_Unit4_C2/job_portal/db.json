@@ -28,22 +28,31 @@
       "id": 3
     },
     {
-        "title": "Team Lead",
-        "company": "masai",
-        "salary": "420000",
-        "description": "Manage team and projects",
-        "location": "Delhi",
-        "type": "Remote",
-        "id": 2
-      },
-      {
-        "title": "IT engineer",
-        "company": "HCL",
-        "salary": "400000",
-        "description": "Have good knowledge",
-        "location": "Mumbai",
-        "type": "Office",
-        "id": 3
-      }
+      "title": "Team Lead",
+      "company": "masai",
+      "salary": "420000",
+      "description": "Manage team and projects",
+      "location": "Delhi",
+      "type": "Remote",
+      "id": 2
+    },
+    {
+      "title": "IT engineer",
+      "company": "HCL",
+      "salary": "400000",
+      "description": "Have good knowledge",
+      "location": "Mumbai",
+      "type": "Office",
+      "id": 3
+    },
+    {
+      "title": "Plant Head",
+      "company": "Force Mortors",
+      "salary": "12000000",
+      "description": "10+ Yrs experience",
+      "location": "Mumbai",
+      "type": "Office",
+      "id": 4
+    }
   ]
 }
