@@ -47,7 +47,7 @@ getJobs();
                    <button id="applyJobBtn">Apply Now</button>
                 </div>
             )
-        })};  
+        })}  
 
         </div>
         </div>
