@@ -35,6 +35,15 @@
         "location": "Delhi",
         "type": "Remote",
         "id": 2
+      },
+      {
+        "title": "IT engineer",
+        "company": "HCL",
+        "salary": "400000",
+        "description": "Have good knowledge",
+        "location": "Mumbai",
+        "type": "Office",
+        "id": 3
       }
   ]
 }

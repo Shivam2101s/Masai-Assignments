@@ -1,22 +1,28 @@
 .allJobDiv {
-    border: 1px solid red;
     width: 80%;
-    margin:50px auto;
+    margin:20px auto;
     display:grid;
-    grid-template-columns:  repeat(4,20%); 
+    grid-template-columns:  repeat(4,24%); 
     justify-content: space-between;
-
+    gap: 20px;
 }
 
 .jobDesDiv {
     border: 1px solid #dadada;
-    margin: 50px auto;
     padding:10px;
-    background-color: rgb(238, 236, 236); ;
-    /* display: flex;
-    flex-direction: column;
-    float: left; */
-  }
-  .jobDesDiv:hover {
+    background-color: rgb(233, 233, 233); ;
+}
+.jobDesDiv:hover {
     box-shadow: rgba(119, 119, 119, 0.35) 3px 5px 15px;
-  }
+}
+#applyJobBtn {
+     color: white;
+     margin-left:65%;
+     background-color:rgb(30, 44, 44)
+}
+#salarysort {
+    margin:15px 10%;
+    width:13%;
+    height: 35px;
+    border: 1px solid #dadada;
+}
