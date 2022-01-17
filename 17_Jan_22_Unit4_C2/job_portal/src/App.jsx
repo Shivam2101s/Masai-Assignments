@@ -3,6 +3,7 @@ import { Route, Routes, Link } from "react-router-dom";
 import {Login} from "./components/Login"
 import {Navbar} from "./components/Navbar"
 import {AddJobs} from "./components/AddJobs"
+import {Jobs} from "./components/Jobs"
 import {PrivateRoute} from "./components/PrivateRoute"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
        <Route path="/addjobs" element={
        <PrivateRoute><AddJobs/></PrivateRoute>
        }></Route>
+       <Route path="/jobs" element={<Jobs/>}></Route>
      </Routes>
     </div>
   );
