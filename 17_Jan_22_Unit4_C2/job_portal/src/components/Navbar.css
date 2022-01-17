@@ -4,11 +4,13 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    padding
+    padding:0 10% ;   
 }
 #homeIcon{
+    margin:10px;
     height: 70%;
 }
-#logoutBtn{
+#logoutBtn, #jobsBtn{
+    margin:20px;
     height: 35px;
 }

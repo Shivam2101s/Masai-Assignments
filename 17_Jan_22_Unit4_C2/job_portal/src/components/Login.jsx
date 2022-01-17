@@ -32,7 +32,7 @@ export const Login = () => {
             localStorage.setItem("user_token", JSON.stringify(res));
           }
           handleToken(res.token);
-          navigate("/jobs");
+          navigate("/addjobs");
         } else {
           alert(res.error);
         }
