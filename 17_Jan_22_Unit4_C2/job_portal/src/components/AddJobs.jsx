@@ -24,9 +24,8 @@ const dispatch = useDispatch();
           })
             .then((d) => d.json())
             .then((res) => {
-                alert("New job added successfully");
-             dispatch(addJob);
-              
+              alert("New job added successfully");
+              dispatch(addJob); 
             })
             .catch((err) => {
               console.log(err);

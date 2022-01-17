@@ -8,6 +8,24 @@
       "location": "Pune",
       "type": "WFH",
       "id": 1
+    },
+    {
+      "title": "Team Lead",
+      "company": "masai",
+      "salary": "420000",
+      "description": "Manage team and projects",
+      "location": "Delhi",
+      "type": "Remote",
+      "id": 2
+    },
+    {
+      "title": "IT engineer",
+      "company": "HCL",
+      "salary": "400000",
+      "description": "Have good knowledge",
+      "location": "Mumbai",
+      "type": "Office",
+      "id": 3
     }
   ]
 }
