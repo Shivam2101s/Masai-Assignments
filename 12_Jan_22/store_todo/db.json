@@ -1,7 +1,7 @@
 {
   "todos": [
     {
-      "status": false,
+      "status": true,
       "title": "Breakfast",
       "description": "juice only",
       "id": 1
@@ -23,12 +23,6 @@
       "title": "Codding Class",
       "description": "At 3:00 PM",
       "id": 4
-    },
-    {
-      "status": true,
-      "title": "Do assignments",
-      "description": "All assignments completed",
-      "id": 5
     }
   ]
 }
