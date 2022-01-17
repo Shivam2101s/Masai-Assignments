@@ -25,13 +25,38 @@ getJobs();
           console.log(err);
         }
       };
+      const sortHightoLow = () => {
+        try {
+          fetch("http://localhost:3003/jobs?_sort=salary&_order=desc")
+            .then((d) => d.json())
+            .then((data) => {
+              dispatch(getJob(data));
+              console.log(data);
+            });
+        } catch (err) {
+          console.log(err);
+        }
+      };
+      const sortLowtoHigh = () => {
+        try {
+          fetch("http://localhost:3003/jobs?_sort=salary&_order=asc")
+            .then((d) => d.json())
+            .then((data) => {
+              dispatch(getJob(data));
+              console.log(data);
+            });
+        } catch (err) {
+          console.log(err);
+        }
+      };
 
     return (
         <div>
-            <select name="Salary" id="salarysort">
-        <option value="lowtohigh">Salary: Low to High</option>
-        <option value="hightolow">Salary: High to Low</option> 
-        </select> 
+         <div className="BtnDiv">
+
+         <button className="sortBtn" onClick={sortHightoLow}>Salary: High to Low</button>
+        <button className="sortBtn" onClick={sortLowtoHigh}>Salary: Low to High</button>
+           </div>  
       
         <div className="allJobDiv">
 

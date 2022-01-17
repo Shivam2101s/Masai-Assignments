@@ -41,6 +41,7 @@ export const Login = () => {
 
   return (
     <div id="loginDiv">
+        <h1 className="admin">Admin Login</h1>
       <input
         type="text"
         onChange={handleChange}
