@@ -1,0 +1,22 @@
+.allJobDiv {
+    border: 1px solid red;
+    width: 80%;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:  repeat(4,20%); 
+    justify-content: space-between;
+
+}
+
+.jobDesDiv {
+    border: 1px solid #dadada;
+    margin: 50px auto;
+    padding:10px;
+    background-color: rgb(238, 236, 236); ;
+    /* display: flex;
+    flex-direction: column;
+    float: left; */
+  }
+  .jobDesDiv:hover {
+    box-shadow: rgba(119, 119, 119, 0.35) 3px 5px 15px;
+  }

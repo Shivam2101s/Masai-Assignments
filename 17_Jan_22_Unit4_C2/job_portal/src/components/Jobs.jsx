@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {getJob} from "../features/actions"
-
+import "./Jobs.css"
 
 export const Jobs=() => {
 

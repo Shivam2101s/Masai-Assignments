@@ -26,6 +26,15 @@
       "location": "Mumbai",
       "type": "Office",
       "id": 3
-    }
+    },
+    {
+        "title": "Team Lead",
+        "company": "masai",
+        "salary": "420000",
+        "description": "Manage team and projects",
+        "location": "Delhi",
+        "type": "Remote",
+        "id": 2
+      }
   ]
 }
