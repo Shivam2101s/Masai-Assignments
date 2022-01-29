@@ -8,7 +8,7 @@ function navbar() {
      <div id="searchDiv">
        <input
          id="searchBar"
-         oninput="debounce(searchData,2000)"
+         oninput="debounce(searchData,1000)"
          placeholder="Images, #tags, @users oh my!"
          type="text"
        />
