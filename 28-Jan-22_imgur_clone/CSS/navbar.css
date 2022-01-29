@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#navbar{
+    width:100%;
+    background-image:url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    background-size:100%;
+    height: 70px;
+    padding:0 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#logo{
+    height:50%;
+}
+#newPostbtn{
+    padding:6px 20px 6px 10px;
+    background-color:#31BE7C;
+    border-radius:4px;
+    color:white;
+    outline:none;
+    border: none;
+    font-size:16px;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#newPostbtn:hover{
+    background-color:#44c98b;
+    
+}
+#newPostbtn i {
+    font-size:25px;   
+}
+#searchDiv{
+margin-left:10% ;
+margin-right:5% ;
+width: 40%;
+display: flex;
+align-items: center;
+}
+#searchBar{
+    width: 90%;
+    font-size:16px;
+    outline: none;
+    border: none;
+    background-color: #454469;
+    padding:10px;
+    color: white;
+    font-weight:bold;
+    border-radius: 5px;
+}
+#searchIcon{
+    color: white;
+    font-size:20px;
+    font-weight:200;
+    margin-left: -30px;
+}
+#searchIcon:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+#leaderboardIcon:hover{
+    cursor: pointer;
+}
+#addFreeBtn {
+    background-color:#6432F9;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:4px;
+    color:white;
+    outline:none;
+    border: none;
+    padding: 10px ;
+}
+#signInLink{
+    font-size:17px;
+    color: white;
+    font-weight:bold;
+    text-decoration: none;
+}
+#signUpBtn{
+    padding:10px 20px;
+    background-color:#31BE7C;
+    border-radius:4px;
+    color:white;
+    outline:none;
+    border: none;
+    font-size:16px;
+    font-weight:bold;
+}
+#signUpBtn {
+    background-color:#44c98b;
+}
