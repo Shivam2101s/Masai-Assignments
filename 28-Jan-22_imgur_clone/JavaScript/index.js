@@ -1,8 +1,9 @@
 let container = document.getElementById("container");
 
+let counter = 1;
 async function getData() {
   let d = await fetch(
-    "https://api.imgur.com/3/gallery/hot/viral/1/month?showViral=true&mature=true&album_previews=true",
+    `https://api.imgur.com/3/gallery/hot/viral/${counter}/month?showViral=true&mature=true&album_previews=true`,
     {
       method: "GET",
       headers: { Authorization: "Client-ID 1fd2c328438be83" },
@@ -10,6 +11,7 @@ async function getData() {
   );
   let { data } = await d.json();
   appendData(data);
+  counter++;
 }
 
 getData();
@@ -168,3 +170,16 @@ function scrollFunction() {
     goToTopBtn.style.display = "none";
   }
 }
+
+//----------Infinite scroll
+
+window.addEventListener("scroll", () => {
+  console.log("scrolled", window.scrollY); //scrolled from top
+  console.log(window.innerHeight); //visible part of screen
+  if (
+    window.scrollY + window.innerHeight >=
+    document.documentElement.scrollHeight
+  ) {
+    getData();
+  }
+});
