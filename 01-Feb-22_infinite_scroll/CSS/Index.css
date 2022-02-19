@@ -1,9 +1,30 @@
 #container{
-    border: 5px solid red ;
-    width: 40%;
+    border: 15px solid rgb(168, 46, 46) ;
+    border-radius:50px;
+    width: 35%;
     margin: auto;
     text-align: center;
     font-size: 30px;
     font-weight:900 ;
     font-family:monospace ;
+    overflow-y: scroll;
+    height: 650px;   
 }
+
+#container::-webkit-scrollbar {
+    width: 12px; 
+    padding: 12px;              /* width of the entire scrollbar */
+}
+  
+#container::-webkit-scrollbar-track {
+    background: white transparent; /* color of the tracking area */
+    margin: 30px; 
+}
+         
+  
+#container::-webkit-scrollbar-thumb {
+    background-color: rgb(207, 207, 207);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+
+}
+  

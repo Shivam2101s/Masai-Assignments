@@ -1,3 +1,4 @@
+import "./Navbar.css";
 import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
@@ -16,31 +17,14 @@ export const Navbar = () => {
   };
 
   return (
-    <header>
-      <Link id="homeLink" to={"/todo"}>
-        <img
-          src="https://learn.masaischool.com/img/logo-navbar.svg"
-          alt="Home"
-        />
-        todos
+    <div id="navbar">
+      <Link className="link" to={"/"}>
+        Home
       </Link>
-
-      <div id="iconDiv">
-        <img
-          src="https://learn.masaischool.com/img/notif-icon.svg"
-          alt="reminder"
-        />
-
-        <button id="logoutBtn" onClick={logout}>
+      <button id="logoutBtn" onClick={logout}>
           {" "}
           {token === null ? "Login" : "Logout"}
         </button>
-        <img
-          id="userIcon"
-          src="https://learn.masaischool.com/img/user-icon.svg"
-          alt="User"
-        />
-      </div>
-    </header>
+    </div>
   );
 };

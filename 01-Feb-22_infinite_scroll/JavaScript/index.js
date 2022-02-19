@@ -20,7 +20,7 @@ LoadData();
 
 // to load more data from the list when we reach the bottom
 
-window.addEventListener("scroll", () => {
+container.addEventListener("scroll", () => {
   console.log("scrolled", window.scrollY); //scrolled from top
   console.log(window.innerHeight); //visible part of screen
   if (
